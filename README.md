@@ -55,20 +55,20 @@ myClass1 {
   propB;
 }
 // creating function
-myFunction2 (a, b) {
+myFunction1 (a, b) {
   a = a + b;
 }
 
 myClass2 {
   propA;
   propB;
-  myFunction3 (a, b){
+  myFunction2 (a, b){
     a = 0;
   }
 }
 
 // Property hooks, also known as "property accessors" 
-myClass2 {
+myClass3 {
   prop3;
   myFunction3 (method){
     ?? method { // if the method is the content value, for set the value
@@ -80,8 +80,8 @@ myClass2 {
     }
   }
 }
-
-myObj2 = @ myClass2;
+// Create object "myObj3" from class "myClass3"
+myObj3 = @ myClass3;    
 myObj2.myFunction3 = 123;
 
 ```
@@ -89,11 +89,12 @@ myObj2.myFunction3 = 123;
 ``` JS
 // arrays
 arr = [1,2,3,4,6,7];
-arr[] = 5;  // add new number
+arr[] = 5;  // Add new number
 arr[1];     // Get exist number 2 in position 1
 arr[-2];    // Get exist number 6 in last position 2
 arr();      // Get an entry with element and index from an array and moving the cursor to the next element
-arr(23);    // Add new element in position in first array list
+arr(23);    // Add new element in position in last array list and return etry with element and index 
+arr.lenght; // Get length elements array
 ```
 
 
