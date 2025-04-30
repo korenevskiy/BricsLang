@@ -80,7 +80,8 @@ myClass3 {
     }
   }
 }
-// Create object "myObj3" from class "myClass3"
+// Create (or copy) object "myObj3" from class "myClass3"
+// And the names of the objects are always accessed by reference.
 myObj3 = @ myClass3;    
 myObj2.myFunction3 = 123;
 
