@@ -12,7 +12,7 @@ The concept of a programming language: the absence of language words in the synt
 // Comparison condition, else
 ? (a < b) {
   a = a + b;
-} :: {
+} : {
   a = 0;
 }
 // Comparison switch
