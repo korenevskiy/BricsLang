@@ -3,7 +3,7 @@
 The concept of a programming language: the absence of language words in the syntax.
 ``` JS
 // Simple comparison condition
-? a < b a = a + b;
+? a < b => a = a + b;
 
 // Comparison condition
 ? a < b {
