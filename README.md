@@ -4,10 +4,10 @@ The concept of a programming language: the absence of language words in the synt
 ``` JS
 // Simple comparison condition
 ? a < b
-  => a = a + b;
+  : a = a + b;
 
 условие ? a<b && b==3, b
-  => a++;
+  => b++;
 
 условие (123);
 
@@ -18,7 +18,7 @@ The concept of a programming language: the absence of language words in the synt
 // Comparison condition, else
 ? (a < b) {
   a = a + b;
-} : {
+}:{
   a = 0;
 }
 // Comparison switch
