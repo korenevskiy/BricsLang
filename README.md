@@ -7,7 +7,7 @@ The concept of a programming language: the absence of language words in the synt
   : a = a + b;
 
 имяУсловия ? a<b && b==3, b
-  => b++;
+  : b++;
 
 имяУсловия (123);
 
