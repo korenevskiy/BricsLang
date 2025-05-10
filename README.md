@@ -6,10 +6,10 @@ The concept of a programming language: the absence of language words in the synt
 ? a < b
   : a = a + b;
 
-условие ? a<b && b==3, b
+имяУсловия ? a<b && b==3, b
   => b++;
 
-условие (123);
+имяУсловия (123);
 
 // Comparison condition
 ? a < b {
