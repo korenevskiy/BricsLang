@@ -6,6 +6,9 @@ The concept of a programming language: the absence of language words in the synt
 ? a < b
   : a = a + b;
 
+? (a < b && b == 3) (){
+}
+
 имяУсловия ? a<b && b==3, b
   : b++;
 
@@ -81,16 +84,19 @@ myClass3 {
       prop3 = 123;
     }
     : { // if method is empty value, for get the value
-      !> prop3;
+      => prop3;
       // !> - Completion return sign
     }
   }
 }
 // Create (or copy) object "myObj3" from class "myClass3"
 // And the names of the objects are always accessed by reference.
-myObj3 = @ myClass3;    
+myObj3 = @ myClass3;
 myObj2.myFunction3 = 123;
-
+// Inheritance in classes
+myClass4 @ myClass3 {
+  prop4;
+}
 ```
 
 ``` JS
